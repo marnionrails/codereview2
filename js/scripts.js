@@ -1,5 +1,5 @@
 $document.ready(function() {
-/*   $("form#form-group").submit(function(event) {
+  $("form#form-group").submit(function(event) {
     event.preventDefault();
 
     const answer1 = $("input:radio[name=question1]:checked").val();
@@ -13,5 +13,5 @@ $document.ready(function() {
     const answer9 = $("input:radio[name=question9]:checked").val();
     const answer10 =$("input:radio[name=question10]:checked").val();
 
-  }); */
+  });
 });
