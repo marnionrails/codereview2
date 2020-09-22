@@ -17,3 +17,27 @@
 #Swift {
   color: yellow;
 }
+
+#intro-image {
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  color: rgb(27, 119, 27); 
+  text-align: center;
+}
+
+span {
+  color: red;
+}
+
+.ready {
+  color: rgb(13, 65, 13); 
+  font-size: 24px;
+}
+
+.intro {
+  font-size: 20px;
+}
