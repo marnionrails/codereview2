@@ -30,7 +30,7 @@ $(document).ready(function() {
       $("#JavaScript, #Python, #Swift").hide();
       $("#C-Sharp").show();
     }
-    else {
+    else if (total <= 40) {
       $("#Swift").show();
       $("#JavaScript, #Python, #C-Sharp");
       $("#Swift").show();
