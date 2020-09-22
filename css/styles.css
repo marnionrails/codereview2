@@ -1,3 +1,19 @@
-#Ruby, #C-Sharp, #JavaScript, #Python, #Swift {
+#C-Sharp, #JavaScript, #Python, #Swift {
   display: none;
+}
+
+#JavaScript {
+  color: red;
+}
+
+#C-Sharp {
+  color: pink;
+}
+
+#Python {
+  color: purple;
+}
+
+#Swift {
+  color: yellow;
 }
