@@ -13,8 +13,23 @@ $document.ready(function() {
     const answer9 = $("input:radio[name=question9]:checked").val();
     const answer10 =$("input:radio[name=question10]:checked").val();
 
-    if (answer1 === "1" && (answer2 === "1" || answer3 === "1" || answer4 === "1" ||
-         answer5 === "1" || answer6 === "1" || answer7 === "1" || answer8 === "1" ||
-         answer9 === "1"
+    let total = answer1 + answer2 + answer3 + answer4 + answer5 + answer6 + answer7 + answer8 + answer9 + answer10;
+
+    if (total <= 14) {
+      $("#Python").show();
+      $("#JavaScript, #C-Sharp, #Swift").hide();
+    }
+    else if (total <= 23) {
+      $("#JavaScript").show();
+      $("#Python, #C-Sharp, #Swift").hide();
+    }
+    else if (total <= 31) {
+      $("#C-Sharp").show();
+      $("#JavaScript, #Python, #Swift").hide();
+    }
+    else {
+      $("#Swift").show();
+      $("#JavaScript, #Python, #C-Sharp");
+    }
   });
 });
