@@ -43,8 +43,11 @@ span {
   text-align: center;
 }
 
-button {
-  background-color: blue;
+button.btn {
+  color: white;
+  background-color: black;
+  margin-top: 10px;
+  width: 120px;
 }
 
 header, form {
