@@ -7,7 +7,7 @@
 }
 
 #C-Sharp {
-  color: pink;
+  color: green;
 }
 
 #Python {
@@ -40,4 +40,18 @@ span {
 
 .intro {
   font-size: 20px;
+  text-align: center;
+}
+
+button {
+  background-color: blue;
+}
+
+header, form {
+  background-color: aliceblue;
+  padding: 15px;
+}
+
+body {
+  background-color: gainsboro;
 }
