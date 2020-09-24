@@ -10,7 +10,7 @@ This quiz is designed to advise the user as to which programming language they s
 
 ## Setup/Installation Requirements
 
-* Go to gh-pages
+* Go to https://marnionrails.github.io/codereview2/
 * Take the quiz 
 
 ## Technologies Used
