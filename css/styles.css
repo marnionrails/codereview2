@@ -2,19 +2,19 @@
   display: none;
 }
 
-#JavaScript {
+#JavaScript h3 {
   color: red;
 }
 
-#C-Sharp {
+#C-Sharp h3 {
   color: green;
 }
 
-#Python {
+#Python h3 {
   color: purple;
 }
 
-#Swift {
+#Swift h3 {
   color: yellow;
 }
 
